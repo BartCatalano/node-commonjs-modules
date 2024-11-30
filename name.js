@@ -1,8 +1,6 @@
-function fullName (firstName, lastName){
-     return nameUsers = {
-        firstName,
-         lastName
-    }
+function fullName(firstName, lastName) {
+     return  {
+        firstName,lastName };
     
 }
 
