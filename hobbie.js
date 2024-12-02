@@ -1,7 +1,7 @@
-function allHobbyes (hobbyOne, hobbyTwo, hobbyThree){
+function allHobbies (hobbyOne, hobbyTwo, hobbyThree){
     return  [hobbyOne, hobbyTwo, hobbyThree];
     }
 
     module.exports = {
-        hobbyesFull: allHobbyes    
+        hobbiesFull: allHobbies    
     }

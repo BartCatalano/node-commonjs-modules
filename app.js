@@ -4,7 +4,7 @@ const nome = require(`./name`);
 
 // richiamo la funzione segli hobbie tramite il require
 
-const hobbyes = require(`./hobbie`);
+const hobbies = require(`./hobbie`);
 
 // creo la funzione finale
 
@@ -12,9 +12,9 @@ function finalProfile (){
     // uso la funzione nome
     const nomeresult = nome.nomeFull("firstname"," lastname");
    // uso la funzione hobby
-    const hobbyesResult = hobbyes.hobbyesFull("hobbyOne"," hobbyTwo"," hobbyThree");
+    const hobbiesResult = hobbies.hobbiesFull("hobbyOne"," hobbyTwo"," hobbyThree");
    
-    return {nomeresult, hobbyesResult};
+    return {nomeresult, hobbiesResult};
 }
 
 const users = finalProfile();
